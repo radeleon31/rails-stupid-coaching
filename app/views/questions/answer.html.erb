@@ -1,0 +1,11 @@
+<!-- <input type="text" name="message" value="<%= params[:message] %>">
+ -->
+<%= link_to "ask", ask_path %>
+
+<h2>Your answer</h2>
+
+<p><%=params[:message]  %></p>
+
+<h2>Coach Answer</h2>
+
+<p> <%= @coach_answer %></p>
